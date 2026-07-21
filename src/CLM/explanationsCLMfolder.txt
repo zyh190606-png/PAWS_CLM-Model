@@ -1,0 +1,10 @@
+If there are two files with identical names, except one ends with 'CLM' and one does not, then the 'xxxCLM.F90' one is the original file from CLM, and should not be included in the project for compilation. The file xxx.F90 is a significantly modified version of the original file (too many changes to track)
+
+Other files may be modified slightly, (can be searched by looking for files with !CP inside). These modifications should be moderate.
+
+the 
+shr_***_mod.F90 files may be changed significantly because they contain very platform and compiler-specific operations. All MPI commands are currently removed from the source codes
+
+
+
+verified that the one I downloaded and edited is version cesm_1_0, difference found between mine and cesm_1_1

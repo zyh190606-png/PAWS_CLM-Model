@@ -1,0 +1,57 @@
+# be absolutely sure when you add suppressions to this file
+# you don't want to allow bugs to go unnoticed
+
+# WHERE(snl_old .ne. 0) snl_old = 0D0 ! This is to avoid doing evaluation every step
+{
+   snl_old1
+   Memcheck:Cond
+   fun:paws_clm_mod_mp_passv_
+   fun:paws_clm_mod_mp_paws_clm_
+   fun:land_
+   fun:surface_proc_mod_mp_surface_proc_
+   fun:wtrshd_day_
+   fun:calendarmarch_
+   fun:run_
+   fun:MAIN__
+   fun:main
+}
+{
+   snl_old2
+   Memcheck:Cond
+   fun:paws_clm_mod_mp_passv_
+   fun:paws_clm_mod_mp_paws_clm_
+   fun:land_
+   fun:surface_proc_mod_mp_surface_proc_
+   fun:wtrshd_day_
+   fun:calendarmarch_
+   fun:run_
+   fun:MAIN__
+   fun:main
+}
+
+# This seems like a false alarm
+# ==6502==    at 0x71F3F5: flow_mp_surface_urb_ (Flow.f90:2896)
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:flow_mp_surface_urb_
+   fun:land_
+   fun:surface_proc_mod_mp_surface_proc_
+   fun:wtrshd_day_
+   fun:calendarmarch_
+   fun:run_
+   fun:MAIN__
+   fun:main
+}
+
+{
+   budgeterOutput
+   Memcheck:Cond
+   fun:budgeter_mod_mp_budgeter_
+   fun:wtrshd_day_
+   fun:calendarmarch_
+   fun:run_
+   fun:MAIN__
+   fun:main
+}
+

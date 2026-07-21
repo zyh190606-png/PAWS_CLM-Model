@@ -1,0 +1,16 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:inflateReset2
+   fun:inflateInit2_
+   fun:gzipStringReadInit
+   obj:/mnt/hgfs/Work/PAWS/src/lib/libmx.so
+   obj:/mnt/hgfs/Work/PAWS/src/lib/libmx.so
+   fun:miGetMatrixHeader
+   obj:/mnt/hgfs/Work/PAWS/src/lib/libmat.so
+   obj:/mnt/hgfs/Work/PAWS/src/lib/libmat.so
+   fun:matgetvariable_
+   fun:bridgeglobal_
+   fun:run_
+   fun:MAIN__
+}
