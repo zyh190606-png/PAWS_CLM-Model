@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGEVEG__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGEVEG(VEG,IS)
+              INTEGER(KIND=4) :: VEG
+              INTEGER(KIND=4) :: IS
+            END SUBROUTINE BRIDGEVEG
+          END INTERFACE 
+        END MODULE BRIDGEVEG__genmod

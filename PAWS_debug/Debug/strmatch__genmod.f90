@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:20 2017
+        MODULE STRMATCH__genmod
+          INTERFACE 
+            FUNCTION STRMATCH(ND,STR_ARRAY,STR) RESULT(STRMATCH_0)
+              INTEGER(KIND=4) :: ND
+              CHARACTER(*) :: STR_ARRAY(ND)
+              CHARACTER(*) :: STR
+              INTEGER(KIND=4) :: STRMATCH_0
+            END FUNCTION STRMATCH
+          END INTERFACE 
+        END MODULE STRMATCH__genmod

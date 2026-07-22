@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:20 2017
+        MODULE GW_SOURCE__genmod
+          INTERFACE 
+            SUBROUTINE GW_SOURCE(IGW)
+              INTEGER(KIND=4) :: IGW
+            END SUBROUTINE GW_SOURCE
+          END INTERFACE 
+        END MODULE GW_SOURCE__genmod

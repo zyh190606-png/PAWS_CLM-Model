@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:21 2017
+        MODULE PRISM__genmod
+          INTERFACE 
+            SUBROUTINE PRISM
+            END SUBROUTINE PRISM
+          END INTERFACE 
+        END MODULE PRISM__genmod

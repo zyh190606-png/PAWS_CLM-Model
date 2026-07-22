@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:54 2017
+        MODULE BRIDGE_REC__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGE_REC(REC)
+              INTEGER(KIND=4) :: REC
+            END SUBROUTINE BRIDGE_REC
+          END INTERFACE 
+        END MODULE BRIDGE_REC__genmod

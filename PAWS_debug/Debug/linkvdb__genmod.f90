@@ -1,0 +1,20 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE LINKVDB__genmod
+          INTERFACE 
+            SUBROUTINE LINKVDB(LAICOEFF,HCCOEFF,KCCOEFF,ROOTCOEFF,      &
+     &GROWTHT,HO,LAI,KC,ROOT,HC,DIMS,NFIELDS)
+              INTEGER(KIND=4) :: NFIELDS
+              INTEGER(KIND=4) :: DIMS(3,NFIELDS)
+              REAL(KIND=8) ,TARGET :: LAICOEFF(DIMS((1,1)),DIMS((2,1)))
+              REAL(KIND=8) ,TARGET :: HCCOEFF(DIMS((1,2)),DIMS((2,2)))
+              REAL(KIND=8) ,TARGET :: KCCOEFF(DIMS((1,3)),DIMS((2,3)))
+              REAL(KIND=8) ,TARGET :: ROOTCOEFF(DIMS((1,4)),DIMS((2,4)))
+              REAL(KIND=8) ,TARGET :: GROWTHT(DIMS((1,5)),DIMS((2,5)))
+              REAL(KIND=8) ,TARGET :: HO(DIMS((1,6)),DIMS((2,6)))
+              REAL(KIND=8) ,TARGET :: LAI(DIMS((1,7)),DIMS((2,7)))
+              REAL(KIND=8) ,TARGET :: KC(DIMS((1,8)),DIMS((2,8)))
+              REAL(KIND=8) ,TARGET :: ROOT(DIMS((1,9)),DIMS((2,9)))
+              REAL(KIND=8) ,TARGET :: HC(DIMS((1,10)),DIMS((2,10)))
+            END SUBROUTINE LINKVDB
+          END INTERFACE 
+        END MODULE LINKVDB__genmod

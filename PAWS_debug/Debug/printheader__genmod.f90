@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:23 2017
+        MODULE PRINTHEADER__genmod
+          INTERFACE 
+            SUBROUTINE PRINTHEADER(VARS,N,SKIP,COMM,LINE)
+              INTEGER(KIND=4) :: N
+              CHARACTER(LEN=32) :: VARS(N)
+              INTEGER(KIND=4) :: SKIP
+              INTEGER(KIND=4) :: COMM
+              CHARACTER(*) :: LINE
+            END SUBROUTINE PRINTHEADER
+          END INTERFACE 
+        END MODULE PRINTHEADER__genmod

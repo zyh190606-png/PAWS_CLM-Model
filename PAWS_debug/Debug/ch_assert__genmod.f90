@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:44 2017
+        MODULE CH_ASSERT__genmod
+          INTERFACE 
+            SUBROUTINE CH_ASSERT(MSG)
+              CHARACTER(*) :: MSG
+            END SUBROUTINE CH_ASSERT
+          END INTERFACE 
+        END MODULE CH_ASSERT__genmod

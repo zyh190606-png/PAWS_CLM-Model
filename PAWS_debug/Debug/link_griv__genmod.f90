@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE LINK_GRIV__genmod
+          INTERFACE 
+            SUBROUTINE LINK_GRIV(FIELD_VALUES,M,DIMS,INDEX,FIELD)
+              INTEGER(KIND=4) :: DIMS(3)
+              REAL(KIND=8) ,TARGET :: FIELD_VALUES(DIMS((1)),DIMS((2)))
+              INTEGER(KIND=4) :: M(3)
+              INTEGER(KIND=4) :: INDEX
+              CHARACTER(*) :: FIELD
+            END SUBROUTINE LINK_GRIV
+          END INTERFACE 
+        END MODULE LINK_GRIV__genmod

@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGEDAY__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGEDAY(DAY,IS)
+              INTEGER(KIND=4) :: DAY
+              INTEGER(KIND=4) :: IS
+            END SUBROUTINE BRIDGEDAY
+          END INTERFACE 
+        END MODULE BRIDGEDAY__genmod

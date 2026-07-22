@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:54 2017
+        MODULE BRIDGEET__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGEET(ET)
+              INTEGER(KIND=4) :: ET
+            END SUBROUTINE BRIDGEET
+          END INTERFACE 
+        END MODULE BRIDGEET__genmod

@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:19 2017
+        MODULE GENVEGDAT__genmod
+          INTERFACE 
+            SUBROUTINE GENVEGDAT(VDB)
+              USE VDATA
+              TYPE (VDB_TYPE) :: VDB
+            END SUBROUTINE GENVEGDAT
+          END INTERFACE 
+        END MODULE GENVEGDAT__genmod

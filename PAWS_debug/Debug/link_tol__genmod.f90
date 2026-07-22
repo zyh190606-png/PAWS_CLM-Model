@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:54 2017
+        MODULE LINK_TOL__genmod
+          INTERFACE 
+            SUBROUTINE LINK_TOL(COU,QMAX)
+              REAL(KIND=8) ,TARGET :: COU
+              REAL(KIND=8) ,TARGET :: QMAX
+            END SUBROUTINE LINK_TOL
+          END INTERFACE 
+        END MODULE LINK_TOL__genmod

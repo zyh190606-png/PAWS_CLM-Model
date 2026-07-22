@@ -1,0 +1,18 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:20 2017
+        MODULE BORROWSTATIONS__genmod
+          INTERFACE 
+            SUBROUTINE BORROWSTATIONS(STATIONS,NSTATIONS,I,FIELD,       &
+     &STARTDATE,ENDDATE,DAT,NK,BK)
+              USE VDATA
+              INTEGER(KIND=4) :: I
+              INTEGER(KIND=4) :: NSTATIONS
+              TYPE (STATIONS_TYPE) :: STATIONS(NSTATIONS)
+              CHARACTER(*) :: FIELD
+              INTEGER(KIND=4) :: STARTDATE
+              INTEGER(KIND=4) :: ENDDATE
+              REAL(KIND=8) :: DAT
+              INTEGER(KIND=4) :: NK
+              INTEGER(KIND=4) :: BK
+            END SUBROUTINE BORROWSTATIONS
+          END INTERFACE 
+        END MODULE BORROWSTATIONS__genmod

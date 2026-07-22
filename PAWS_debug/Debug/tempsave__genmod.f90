@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:19 2017
+        MODULE TEMPSAVE__genmod
+          INTERFACE 
+            SUBROUTINE TEMPSAVE(SEQ)
+              INTEGER(KIND=4) :: SEQ
+            END SUBROUTINE TEMPSAVE
+          END INTERFACE 
+        END MODULE TEMPSAVE__genmod

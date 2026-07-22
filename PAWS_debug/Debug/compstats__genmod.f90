@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:21 2017
+        MODULE COMPSTATS__genmod
+          INTERFACE 
+            SUBROUTINE COMPSTATS(COMP,STATS)
+              USE VDATA
+              TYPE (COMP_TYPE) :: COMP
+              REAL(KIND=8) :: STATS(4)
+            END SUBROUTINE COMPSTATS
+          END INTERFACE 
+        END MODULE COMPSTATS__genmod

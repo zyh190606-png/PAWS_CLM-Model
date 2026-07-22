@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:20 2017
+        MODULE CHANGEPAR2__genmod
+          INTERFACE 
+            SUBROUTINE CHANGEPAR2(OPT,PAR,NPAR)
+              USE VDATA
+              INTEGER(KIND=4) :: NPAR
+              INTEGER(KIND=4) :: OPT
+              TYPE (PAR_TYPE) :: PAR(NPAR)
+            END SUBROUTINE CHANGEPAR2
+          END INTERFACE 
+        END MODULE CHANGEPAR2__genmod

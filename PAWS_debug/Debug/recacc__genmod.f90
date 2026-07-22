@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:25 2017
+        MODULE RECACC__genmod
+          INTERFACE 
+            SUBROUTINE RECACC(OBJ,VARARGIN)
+              CHARACTER(LEN=32) :: OBJ
+              INTEGER(KIND=4) :: VARARGIN
+            END SUBROUTINE RECACC
+          END INTERFACE 
+        END MODULE RECACC__genmod

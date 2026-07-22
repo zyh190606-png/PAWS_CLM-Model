@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:22 2017
+        MODULE AQUIFERSYSTEM__genmod
+          INTERFACE 
+            SUBROUTINE AQUIFERSYSTEM(GW,MAPP,BBC,NBC,OPT)
+              REAL(KIND=4) :: GW
+              INTEGER(KIND=4) :: MAPP
+              REAL(KIND=4) :: BBC
+              INTEGER(KIND=4) :: NBC
+              REAL(KIND=4) :: OPT
+            END SUBROUTINE AQUIFERSYSTEM
+          END INTERFACE 
+        END MODULE AQUIFERSYSTEM__genmod

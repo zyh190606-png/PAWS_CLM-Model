@@ -1,0 +1,18 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE LINK_W__genmod
+          INTERFACE 
+            SUBROUTINE LINK_W(T,DT,MODELSTARTTIME,MODELENDTIME,PLOTT,GM,&
+     &CR,ER,DIMS,NFIELDS)
+              INTEGER(KIND=4) :: NFIELDS
+              INTEGER(KIND=4) :: DIMS(3,NFIELDS)
+              REAL(KIND=8) ,TARGET :: T
+              REAL(KIND=8) ,TARGET :: DT
+              REAL(KIND=8) ,TARGET :: MODELSTARTTIME
+              REAL(KIND=8) ,TARGET :: MODELENDTIME
+              REAL(KIND=8) ,TARGET :: PLOTT
+              REAL(KIND=8) ,TARGET :: GM
+              INTEGER(KIND=4) ,TARGET :: CR(DIMS((2,7)))
+              INTEGER(KIND=4) ,TARGET :: ER(DIMS((2,8)))
+            END SUBROUTINE LINK_W
+          END INTERFACE 
+        END MODULE LINK_W__genmod

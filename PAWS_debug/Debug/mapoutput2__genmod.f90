@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:23 2017
+        MODULE MAPOUTPUT2__genmod
+          INTERFACE 
+            SUBROUTINE MAPOUTPUT2(CMD,NUM)
+              USE VDATA
+              INTEGER(KIND=4) :: CMD
+              TYPE (MAPS_TYPE) :: NUM
+            END SUBROUTINE MAPOUTPUT2
+          END INTERFACE 
+        END MODULE MAPOUTPUT2__genmod

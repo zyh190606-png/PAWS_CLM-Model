@@ -1,0 +1,263 @@
+ Successfully read snow optical properties
+ SNICAR: Mie single scatter albedos for direct-beam ice, rds=100um: 
+  0.999988554642975       0.999681037198863       0.997607605675971     
+  0.986497934250590       0.863625011159058     
+ SNICAR: Mie single scatter albedos for diffuse ice, rds=100um: 
+  0.999988688305644       0.999695704867021       0.997641261479875     
+  0.988424521328148       0.874095913192701     
+ SNICAR: Excluding OC aerosols from snow radiative transfer calculations
+ SNICAR: Mie single scatter albedos for hydrophillic BC: 
+  0.515945305512804       0.434313626536424       0.346103765992635     
+  0.275522926330555       0.138576096442815     
+ SNICAR: Mie single scatter albedos for hydrophobic BC:   0.287685315976181     
+  0.186577277125224       0.123152237089201       8.834628859055429E-002
+  4.034215622693781E-002
+ SNICAR: Mie single scatter albedos for dust species 1:   0.978911057153050     
+  0.994175916042451       0.993357580762207       0.992545751316266     
+  0.953291550046772     
+ SNICAR: Mie single scatter albedos for dust species 2:   0.943752248802793     
+  0.984191668599419       0.989309063917025       0.991793946836264     
+  0.982999590668913     
+ SNICAR: Mie single scatter albedos for dust species 3:   0.904044530646049     
+  0.964651629694555       0.968275809551522       0.972598419874107     
+  0.977612418329876     
+ SNICAR: Mie single scatter albedos for dust species 4:   0.849818195355416     
+  0.940460325044343       0.948316305534169       0.952841175117807     
+  0.955379528193802     
+ 
+ Attempting to read snow aging parameters .....
+ Successfully read snow aging properties
+ SNICAR: snowage tau for T=263K, dTdz = 100 K/m, rhos = 150 kg/m3: 
+   6.32058002982679     
+ SNICAR: snowage kappa for T=263K, dTdz = 100 K/m, rhos = 150 kg/m3: 
+   1.56696894189530     
+ SNICAR: snowage dr/dt_0 for T=263K, dTdz = 100 K/m, rhos = 150 kg/m3: 
+   5.48727550274226     
+ Successfully read PFT physiological data
+ 
+ Attempting to initialize time invariant variables
+ Successfully initialized time invariant variables
+ 
+ Initializing variables for time accumulation .....
+------------------------------------------------------------
+ Accumulated fields
+ No Name     Units    Type    Period Inival Description
+_______________________________________________________________________
+  1 TREFAV   K        timeavg      1   0. average over an hour of 2-m temperature 
+  2 TREFAV_U K        timeavg      1   0. average over an hour of urban 2-m temper
+  3 TREFAV_R K        timeavg      1   0. average over an hour of rural 2-m temper
+  4 T_VEG24  K        runmean     24   0. 24hr average of vegetation temperature  
+  5 T_VEG240 K        runmean    240   0. 240hr average of vegetation temperature 
+  6 FSD24    W/m2     runmean     24   0. 24hr average of direct solar radiation  
+  7 FSD240   W/m2     runmean    240   0. 240hr average of direct solar radiation 
+  8 FSI24    W/m2     runmean     24   0. 24hr average of diffuse solar radiation 
+  9 FSI240   W/m2     runmean    240   0. 240hr average of diffuse solar radiation
+ 10 FSUN24   fraction runmean     24   0. 24hr average of diffuse solar radiation 
+ 11 FSUN240  fraction runmean    240   0. 240hr average of diffuse solar radiation
+ 12 LAIP     m2/m2    runmean      1   0. leaf area index average over timestep   
+ 13 T10      K        runmean    240 293. 10-day running mean of 2-m temperature  
+ 14 TDM10    K        runmean    240 273. 10-day running mean of min 2-m temperatu
+ 15 TDM5     K        runmean    120 273. 5-day running mean of min 2-m temperatur
+ 16 GDD0     K        runaccum  N.A.   0. growing degree-days base 0C from plantin
+ 17 GDD8     K        runaccum  N.A.   0. growing degree-days base 8C from plantin
+ 18 GDD10    K        runaccum  N.A.   0. growing degree-days base 10C from planti
+ 19 GDDPLANT K        runaccum  N.A.   0. growing degree-days from planting       
+ 20 GDDTSOI  K        runaccum  N.A.   0. growing degree-days from planting (top t
+_______________________________________________________________________
+ 
+------------------------------------------------------------
+ Successfully initialized variables for accumulation
+ 
+ Setting initial data to non-spun up values
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2009
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.670000E-02
+(shr_orb_params) Obliquity (deg)   =   2.343860E+01
+(shr_orb_params) Obliquity (rad)   =   4.090807E-01
+(shr_orb_params) Long of perh(deg) =   1.030497E+02
+(shr_orb_params) Long of perh(rad) =   4.940149E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.244423E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2010
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669960E-02
+(shr_orb_params) Obliquity (deg)   =   2.343847E+01
+(shr_orb_params) Obliquity (rad)   =   4.090784E-01
+(shr_orb_params) Long of perh(deg) =   1.030668E+02
+(shr_orb_params) Long of perh(rad) =   4.940448E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.244107E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2011
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669919E-02
+(shr_orb_params) Obliquity (deg)   =   2.343834E+01
+(shr_orb_params) Obliquity (rad)   =   4.090762E-01
+(shr_orb_params) Long of perh(deg) =   1.030839E+02
+(shr_orb_params) Long of perh(rad) =   4.940747E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.243791E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2012
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669878E-02
+(shr_orb_params) Obliquity (deg)   =   2.343821E+01
+(shr_orb_params) Obliquity (rad)   =   4.090739E-01
+(shr_orb_params) Long of perh(deg) =   1.031011E+02
+(shr_orb_params) Long of perh(rad) =   4.941046E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.243475E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2013
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669838E-02
+(shr_orb_params) Obliquity (deg)   =   2.343808E+01
+(shr_orb_params) Obliquity (rad)   =   4.090716E-01
+(shr_orb_params) Long of perh(deg) =   1.031182E+02
+(shr_orb_params) Long of perh(rad) =   4.941345E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.243159E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2014
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669797E-02
+(shr_orb_params) Obliquity (deg)   =   2.343795E+01
+(shr_orb_params) Obliquity (rad)   =   4.090694E-01
+(shr_orb_params) Long of perh(deg) =   1.031353E+02
+(shr_orb_params) Long of perh(rad) =   4.941644E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.242842E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2015
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669757E-02
+(shr_orb_params) Obliquity (deg)   =   2.343782E+01
+(shr_orb_params) Obliquity (rad)   =   4.090671E-01
+(shr_orb_params) Long of perh(deg) =   1.031525E+02
+(shr_orb_params) Long of perh(rad) =   4.941943E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.242525E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2016
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669716E-02
+(shr_orb_params) Obliquity (deg)   =   2.343769E+01
+(shr_orb_params) Obliquity (rad)   =   4.090648E-01
+(shr_orb_params) Long of perh(deg) =   1.031696E+02
+(shr_orb_params) Long of perh(rad) =   4.942242E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.242208E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2017
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669675E-02
+(shr_orb_params) Obliquity (deg)   =   2.343756E+01
+(shr_orb_params) Obliquity (rad)   =   4.090625E-01
+(shr_orb_params) Long of perh(deg) =   1.031867E+02
+(shr_orb_params) Long of perh(rad) =   4.942541E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.241891E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2018
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669635E-02
+(shr_orb_params) Obliquity (deg)   =   2.343743E+01
+(shr_orb_params) Obliquity (rad)   =   4.090603E-01
+(shr_orb_params) Long of perh(deg) =   1.032039E+02
+(shr_orb_params) Long of perh(rad) =   4.942840E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.241573E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2019
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669594E-02
+(shr_orb_params) Obliquity (deg)   =   2.343730E+01
+(shr_orb_params) Obliquity (rad)   =   4.090580E-01
+(shr_orb_params) Long of perh(deg) =   1.032210E+02
+(shr_orb_params) Long of perh(rad) =   4.943139E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.241255E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2020
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669553E-02
+(shr_orb_params) Obliquity (deg)   =   2.343717E+01
+(shr_orb_params) Obliquity (rad)   =   4.090557E-01
+(shr_orb_params) Long of perh(deg) =   1.032381E+02
+(shr_orb_params) Long of perh(rad) =   4.943438E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.240937E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2021
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669513E-02
+(shr_orb_params) Obliquity (deg)   =   2.343704E+01
+(shr_orb_params) Obliquity (rad)   =   4.090535E-01
+(shr_orb_params) Long of perh(deg) =   1.032553E+02
+(shr_orb_params) Long of perh(rad) =   4.943737E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.240618E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2022
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669472E-02
+(shr_orb_params) Obliquity (deg)   =   2.343691E+01
+(shr_orb_params) Obliquity (rad)   =   4.090512E-01
+(shr_orb_params) Long of perh(deg) =   1.032724E+02
+(shr_orb_params) Long of perh(rad) =   4.944036E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.240299E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2023
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669431E-02
+(shr_orb_params) Obliquity (deg)   =   2.343678E+01
+(shr_orb_params) Obliquity (rad)   =   4.090489E-01
+(shr_orb_params) Long of perh(deg) =   1.032895E+02
+(shr_orb_params) Long of perh(rad) =   4.944335E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.239980E-02
+(shr_orb_params) -----------------------------------------
+(shr_orb_params) Calculate characteristics of the orbit:
+(shr_orb_params) CVS revision: $Revision: 1.2.6.1 $
+(shr_orb_params) CVS Tag     : $Name: clm3_deva_21 $
+(shr_orb_params) Calculate orbit for year:      2024
+(shr_orb_params) ------ Computed Orbital Parameters ------
+(shr_orb_params) Eccentricity      =   1.669391E-02
+(shr_orb_params) Obliquity (deg)   =   2.343665E+01
+(shr_orb_params) Obliquity (rad)   =   4.090467E-01
+(shr_orb_params) Long of perh(deg) =   1.033067E+02
+(shr_orb_params) Long of perh(rad) =   4.944634E+00
+(shr_orb_params) Long at v.e.(rad) =  -3.239661E-02
+(shr_orb_params) -----------------------------------------

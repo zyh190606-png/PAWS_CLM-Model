@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE LINKWEA__genmod
+          INTERFACE 
+            SUBROUTINE LINKWEA(DT,T)
+              REAL(KIND=8) ,TARGET :: DT
+              REAL(KIND=8) ,TARGET :: T
+            END SUBROUTINE LINKWEA
+          END INTERFACE 
+        END MODULE LINKWEA__genmod

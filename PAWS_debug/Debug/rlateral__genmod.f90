@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:20 2017
+        MODULE RLATERAL__genmod
+          INTERFACE 
+            SUBROUTINE RLATERAL(RID)
+              INTEGER(KIND=4) :: RID
+            END SUBROUTINE RLATERAL
+          END INTERFACE 
+        END MODULE RLATERAL__genmod

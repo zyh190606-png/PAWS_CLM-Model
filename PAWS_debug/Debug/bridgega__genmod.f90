@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGEGA__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGEGA(GA,IS)
+              INTEGER(KIND=4) :: GA
+              INTEGER(KIND=4) :: IS
+            END SUBROUTINE BRIDGEGA
+          END INTERFACE 
+        END MODULE BRIDGEGA__genmod

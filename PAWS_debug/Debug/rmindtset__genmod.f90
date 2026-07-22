@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:20 2017
+        MODULE RMINDTSET__genmod
+          INTERFACE 
+            SUBROUTINE RMINDTSET(RL,RDT,DTNEW,DTOLD)
+              INTEGER(KIND=4) :: RL(SIZE())
+              REAL(KIND=8) :: RDT
+              REAL(KIND=8) :: DTNEW
+              REAL(KIND=8) :: DTOLD
+            END SUBROUTINE RMINDTSET
+          END INTERFACE 
+        END MODULE RMINDTSET__genmod

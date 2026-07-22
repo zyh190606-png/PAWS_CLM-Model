@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGE_W__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGE_W(W)
+              INTEGER(KIND=4) :: W
+            END SUBROUTINE BRIDGE_W
+          END INTERFACE 
+        END MODULE BRIDGE_W__genmod

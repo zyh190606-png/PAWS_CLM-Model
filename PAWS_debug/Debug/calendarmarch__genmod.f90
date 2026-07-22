@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:19 2017
+        MODULE CALENDARMARCH__genmod
+          INTERFACE 
+            SUBROUTINE CALENDARMARCH(PAR,NPAR,INIT,ET_SIM)
+              USE VDATA
+              INTEGER(KIND=4) :: NPAR
+              TYPE (PAR_TYPE) :: PAR(NPAR)
+              INTEGER(KIND=4) :: INIT
+              REAL(KIND=8) :: ET_SIM(72)
+            END SUBROUTINE CALENDARMARCH
+          END INTERFACE 
+        END MODULE CALENDARMARCH__genmod

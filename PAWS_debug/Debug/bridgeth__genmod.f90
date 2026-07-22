@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGETH__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGETH(TH,IS)
+              INTEGER(KIND=4) :: TH
+              INTEGER(KIND=4) :: IS
+            END SUBROUTINE BRIDGETH
+          END INTERFACE 
+        END MODULE BRIDGETH__genmod

@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGE_RRIV__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGE_RRIV(RIV,IS)
+              INTEGER(KIND=4) :: RIV
+              INTEGER(KIND=4) :: IS
+            END SUBROUTINE BRIDGE_RRIV
+          END INTERFACE 
+        END MODULE BRIDGE_RRIV__genmod

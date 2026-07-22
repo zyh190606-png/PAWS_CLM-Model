@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGEGW__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGEGW(GWM,INDEX)
+              INTEGER(KIND=4) :: GWM
+              INTEGER(KIND=4) :: INDEX
+            END SUBROUTINE BRIDGEGW
+          END INTERFACE 
+        END MODULE BRIDGEGW__genmod

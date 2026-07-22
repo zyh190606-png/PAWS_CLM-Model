@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:54 2017
+        MODULE LINK_GLOBALG__genmod
+          INTERFACE 
+            SUBROUTINE LINK_GLOBALG(T,DT)
+              REAL(KIND=8) ,TARGET :: T
+              REAL(KIND=8) ,TARGET :: DT
+            END SUBROUTINE LINK_GLOBALG
+          END INTERFACE 
+        END MODULE LINK_GLOBALG__genmod

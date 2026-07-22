@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGEVDZ__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGEVDZ(VDZM,IS)
+              INTEGER(KIND=4) :: VDZM
+              INTEGER(KIND=4) :: IS
+            END SUBROUTINE BRIDGEVDZ
+          END INTERFACE 
+        END MODULE BRIDGEVDZ__genmod

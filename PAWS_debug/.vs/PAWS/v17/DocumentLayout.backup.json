@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PAWS\\Program_and_test_case_data\\PAWS_CLM\\PAWS_debug\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49905EFB-941D-47B1-B3AA-3DCB6F95CB0D}|PAWS.vfproj|d:\\paws\\program_and_test_case_data\\paws_clm\\src\\clm\\biogeophys\\soiltemperaturemod.f90||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49905EFB-941D-47B1-B3AA-3DCB6F95CB0D}|PAWS.vfproj|d:\\paws\\program_and_test_case_data\\paws_clm\\src\\paws\\paws.f90||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49905EFB-941D-47B1-B3AA-3DCB6F95CB0D}|PAWS.vfproj|d:\\paws\\program_and_test_case_data\\paws_clm\\src\\paws\\calendarmarch.f90||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "paws.f90",
+              "DocumentMoniker": "D:\\PAWS\\Program_and_test_case_data\\PAWS_CLM\\src\\PAWS\\paws.f90",
+              "RelativeDocumentMoniker": "..\\src\\PAWS\\paws.f90",
+              "ToolTip": "D:\\PAWS\\Program_and_test_case_data\\PAWS_CLM\\src\\PAWS\\paws.f90",
+              "RelativeToolTip": "..\\src\\PAWS\\paws.f90",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACMSURBVDhPxZJBDsQgCEU/sytHM57Cg/UUpEfDpbPSgjVtmc28lZKfJwSptYYOEY2zRVXPkIG3DWQFtdZlEAAO3ucSkparIOfsQgAgIjGBiLggTAdJi6t/3O0FB\u002B9DxswUFsyEBUmLGyMs6DAzISKYX\u002B68FnTmNYcFM/8XLH/iEyIytnAR2OAdS8EvfAEh4EkdDLYrMwAAAABJRU5ErkJgggAAAAAAAAAAAA==",
+              "WhenOpened": "2025-07-03T02:42:43.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoilTemperatureMod.F90",
+              "DocumentMoniker": "D:\\PAWS\\Program_and_test_case_data\\PAWS_CLM\\src\\CLM\\biogeophys\\SoilTemperatureMod.F90",
+              "RelativeDocumentMoniker": "..\\src\\CLM\\biogeophys\\SoilTemperatureMod.F90",
+              "ToolTip": "D:\\PAWS\\Program_and_test_case_data\\PAWS_CLM\\src\\CLM\\biogeophys\\SoilTemperatureMod.F90",
+              "RelativeToolTip": "..\\src\\CLM\\biogeophys\\SoilTemperatureMod.F90",
+              "ViewState": "AgIAABcDAAAAAAAAAAApwCQDAAA5AAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACMSURBVDhPxZJBDsQgCEU/sytHM57Cg/UUpEfDpbPSgjVtmc28lZKfJwSptYYOEY2zRVXPkIG3DWQFtdZlEAAO3ucSkparIOfsQgAgIjGBiLggTAdJi6t/3O0FB\u002B9DxswUFsyEBUmLGyMs6DAzISKYX\u002B68FnTmNYcFM/8XLH/iEyIytnAR2OAdS8EvfAEh4EkdDLYrMwAAAABJRU5ErkJgggAAAAAAAAAAAA==",
+              "WhenOpened": "2025-06-30T11:10:51.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "calendarMarch.f90",
+              "DocumentMoniker": "D:\\PAWS\\Program_and_test_case_data\\PAWS_CLM\\src\\PAWS\\calendarMarch.f90",
+              "RelativeDocumentMoniker": "..\\src\\PAWS\\calendarMarch.f90",
+              "ToolTip": "D:\\PAWS\\Program_and_test_case_data\\PAWS_CLM\\src\\PAWS\\calendarMarch.f90",
+              "RelativeToolTip": "..\\src\\PAWS\\calendarMarch.f90",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAL4AAAAhAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACMSURBVDhPxZJBDsQgCEU/sytHM57Cg/UUpEfDpbPSgjVtmc28lZKfJwSptYYOEY2zRVXPkIG3DWQFtdZlEAAO3ucSkparIOfsQgAgIjGBiLggTAdJi6t/3O0FB\u002B9DxswUFsyEBUmLGyMs6DAzISKYX\u002B68FnTmNYcFM/8XLH/iEyIytnAR2OAdS8EvfAEh4EkdDLYrMwAAAABJRU5ErkJgggAAAAAAAAAAAA==",
+              "WhenOpened": "2025-06-30T11:10:24.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

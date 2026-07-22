@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGE_PAR__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGE_PAR(PARM,INDEX)
+              INTEGER(KIND=4) :: PARM
+              INTEGER(KIND=4) :: INDEX
+            END SUBROUTINE BRIDGE_PAR
+          END INTERFACE 
+        END MODULE BRIDGE_PAR__genmod

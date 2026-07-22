@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE BRIDGE_NET__genmod
+          INTERFACE 
+            SUBROUTINE BRIDGE_NET(NET,IS)
+              INTEGER(KIND=4) :: NET
+              INTEGER(KIND=4) :: IS
+            END SUBROUTINE BRIDGE_NET
+          END INTERFACE 
+        END MODULE BRIDGE_NET__genmod

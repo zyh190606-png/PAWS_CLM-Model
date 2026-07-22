@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE SPARSETOFULL__genmod
+          INTERFACE 
+            SUBROUTINE SPARSETOFULL(VALUES,IR,NZMAX,JC,COLUMNS,DIMS,PTR)
+              INTEGER(KIND=4) :: DIMS(3)
+              INTEGER(KIND=4) :: COLUMNS
+              INTEGER(KIND=4) :: NZMAX
+              REAL(KIND=8) :: VALUES(NZMAX)
+              INTEGER(KIND=4) :: IR(NZMAX)
+              INTEGER(KIND=4) :: JC(COLUMNS)
+              REAL(KIND=8) :: PTR(DIMS((1)),DIMS((2)))
+            END SUBROUTINE SPARSETOFULL
+          END INTERFACE 
+        END MODULE SPARSETOFULL__genmod

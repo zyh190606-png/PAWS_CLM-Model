@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:55 2017
+        MODULE LINKBC0__genmod
+          INTERFACE 
+            SUBROUTINE LINKBC0(J,CIDX,TYP,IDX,N)
+              INTEGER(KIND=4) ,TARGET :: N
+              INTEGER(KIND=4) ,TARGET :: J
+              INTEGER(KIND=4) ,TARGET :: CIDX
+              INTEGER(KIND=4) ,TARGET :: TYP
+              INTEGER(KIND=4) ,TARGET :: IDX(N)
+            END SUBROUTINE LINKBC0
+          END INTERFACE 
+        END MODULE LINKBC0__genmod

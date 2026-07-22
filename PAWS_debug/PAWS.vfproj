@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{49905EFB-941D-47B1-B3AA-3DCB6F95CB0D}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="..\src\include;C:\Program Files\MATLAB\R2013b\extern\include" Traceback="true" RuntimeLibrary="rtMultiThreadedDebug" Interfaces="true"/>
+			<Tool Name="VFLinkerTool" AdditionalOptions="/stack:20000000" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files\MATLAB\R2013b\extern\lib\win32\microsoft" GenerateDebugInformation="true" SubSystem="subSystemConsole" AdditionalDependencies="libmx.lib libmat.lib "/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="..\src\include;C:\Program Files\MATLAB\R2009a\extern\include"/>
+			<Tool Name="VFLinkerTool" AdditionalOptions="/stack:20000000" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="..\src\lib;C:\Program Files\MATLAB\R2009a\extern\lib\win32\microsoft" SubSystem="subSystemConsole" AdditionalDependencies="libmx.lib libmat.lib netcdf.lib netcdf_f90.lib netcdfs.lib"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+		</Configuration>
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeFull" Preprocess="preprocessYes" AdditionalIncludeDirectories="..\src\include;D:\Program Files\MATLAB\R2024a\extern\include" Traceback="true" RuntimeLibrary="rtMultiThreadedDebug" Interfaces="true"/>
+			<Tool Name="VFLinkerTool" AdditionalOptions="/stack:800000000" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="D:\Program Files\MATLAB\R2024a\extern\lib\win64\microsoft" GenerateDebugInformation="true" SubSystem="subSystemConsole" AdditionalDependencies="libmx.lib libmat.lib"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="..\src\include;C:\Program Files\MATLAB\R2010b\extern\include"/>
+			<Tool Name="VFLinkerTool" AdditionalOptions="/stack:800000000" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files\MATLAB\R2010b\extern\lib\win64\microsoft" SubSystem="subSystemConsole" AdditionalDependencies="libmx.lib libmat.lib"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			<File RelativePath="..\src\include\preproc.h"/>
+		</Filter>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+			<File RelativePath="..\src\CLM\main\abortutils.F90"/>
+			<File RelativePath="..\src\CLM\main\accFldsMod.F90"/>
+			<File RelativePath="..\src\CLM\main\accumulMod.F90"/>
+			<File RelativePath="..\src\PAWS\adhoc_Set.F90"/>
+			<File RelativePath="..\src\PAWS\allocVData.f90"/>
+			<File RelativePath="..\src\CLM\biogeophys\BalanceCheckMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\BareGroundFluxesMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\Biogeophysics1Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\Biogeophysics2Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\BiogeophysicsLakeMod.F90"/>
+			<File RelativePath="..\src\PAWS\borrowStations.f90"/>
+			<File RelativePath="..\src\PAWS\budgeter.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\C13SummaryMod.F90"/>
+			<File RelativePath="..\src\PAWS\calendarMarch.f90"/>
+			<File RelativePath="..\src\CLM\biogeophys\CanopyFluxesMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CASAPhenologyMod.F90"/>
+			<File RelativePath="..\src\PAWS\ch_assert.F90"/>
+			<File RelativePath="..\src\PAWS\changepar.f90"/>
+			<File RelativePath="..\src\CLM\main\clm_atmlnd.F90"/>
+			<File RelativePath="..\src\CLM\main\clm_driverInitMod.F90"/>
+			<File RelativePath="..\src\CLM\main\clm_time_manager.F90"/>
+			<File RelativePath="..\src\CLM\main\clm_varcon.F90"/>
+			<File RelativePath="..\src\CLM\main\clm_varctl.F90"/>
+			<File RelativePath="..\src\CLM\main\clm_varorb.F90"/>
+			<File RelativePath="..\src\CLM\main\clm_varpar.F90"/>
+			<File RelativePath="..\src\CLM\main\clm_varsur.F90"/>
+			<File RelativePath="..\src\CLM\main\clmtype.F90"/>
+			<File RelativePath="..\src\CLM\main\clmtypeInitMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNAllocationMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNAnnualUpdateMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNBalanceCheckMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNC13FluxMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNC13StateUpdate1Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNC13StateUpdate2Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNC13StateUpdate3Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNCStateUpdate1Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNCStateUpdate2Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNCStateUpdate3Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNDecompMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNDVEcosystemDynIniMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNDVEstablishmentMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNDVLightMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNEcosystemDynMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNFireMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNGapMortalityMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNGRespMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNHarvestMod.F90"/>
+			<File RelativePath="..\src\CLM\main\CNiniSpecial.F90"/>
+			<File RelativePath="..\src\CLM\main\CNiniTimeVar.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNMRespMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNNDynamicsMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNNStateUpdate1Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNNStateUpdate2Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNNStateUpdate3Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNPhenologyMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNPrecisionControlMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNSetValueMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNSummaryMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNVegStructUpdateMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\CNWoodProductsMod.F90"/>
+			<File RelativePath="..\src\PAWS\columnOutput.F90"/>
+			<File RelativePath="..\src\PAWS\comm.f90"/>
+			<File RelativePath="..\src\PAWS\compStats.f90"/>
+			<File RelativePath="..\src\PAWS\compTS.f90"/>
+			<File RelativePath="..\src\PAWS\dailyVegUpdate.f90"/>
+			<File RelativePath="..\src\CLM\main\decompMod.F90"/>
+			<File RelativePath="..\src\PAWS\distWea.f90"/>
+			<File RelativePath="..\src\CLM\main\domainMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\DUSTMod.F90"/>
+			<File RelativePath="..\src\CLM\main\dynlandMod.F90"/>
+			<File RelativePath="..\src\PAWS\F_oc.f90"/>
+			<File RelativePath="..\src\PAWS\F_oc_dw.F90"/>
+			<File RelativePath="..\src\CLM\main\fileutils.F90"/>
+			<File RelativePath="..\src\CLM\main\filterMod.F90"/>
+			<File RelativePath="..\src\PAWS\Flow.f90"/>
+			<File RelativePath="..\src\CLM\biogeophys\FracWetMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\FrictionVelocityMod.F90"/>
+			<File RelativePath="..\src\PAWS\gClearTFlux.F90"/>
+			<File RelativePath="..\src\PAWS\gd.f90"/>
+			<File RelativePath="..\src\PAWS\genVegDat.f90"/>
+			<File RelativePath="..\src\CLM\main\getdatetime.F90"/>
+			<File RelativePath="..\src\PAWS\GW_Sol.f90"/>
+			<File RelativePath="..\src\PAWS\GW_source.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\Hydrology1Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\Hydrology2Mod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\HydrologyLakeMod.F90"/>
+			<File RelativePath="..\src\CLM\main\iniTimeConst.F90"/>
+			<File RelativePath="..\src\CLM\main\initSurfAlbMod.F90"/>
+			<File RelativePath="..\src\PAWS\initValues.f90"/>
+			<File RelativePath="..\src\PAWS\linkVdataFromGd.f90"/>
+			<File RelativePath="..\src\PAWS\makeDay.f90"/>
+			<File RelativePath="..\src\PAWS\mapOutput.f90"/>
+			<File RelativePath="..\src\PAWS\matRW.f90"/>
+			<File RelativePath="..\src\PAWS\matTable.f90"/>
+			<File RelativePath="..\src\PAWS\memoryChunk.F90"/>
+			<File RelativePath="..\src\CLM\main\mkarbinitMod.F90"/>
+			<File RelativePath="..\src\CLM\main\nanMod.F90"/>
+			<File RelativePath="..\src\PAWS\openFiles.F90"/>
+			<File RelativePath="..\src\PAWS\paws.f90"/>
+			<File RelativePath="..\src\PAWS\PAWS_CLM_Mod.F90"/>
+			<File RelativePath="..\src\PAWS\paws_varctl.F90"/>
+			<File RelativePath="..\src\PAWS\PenmanMonteith.f90"/>
+			<File RelativePath="..\src\CLM\main\pft2colMod.F90"/>
+			<File RelativePath="..\src\CLM\main\pftvarcon.F90"/>
+			<File RelativePath="..\src\PAWS\prism.f90"/>
+			<File RelativePath="..\src\CLM\biogeophys\QSatMod.F90"/>
+			<File RelativePath="..\src\PAWS\r_MacCormack.F90"/>
+			<File RelativePath="..\src\PAWS\rAvgStages.F90"/>
+			<File RelativePath="..\src\PAWS\rClearTFlux.f90"/>
+			<File RelativePath="..\src\PAWS\readpar.f90"/>
+			<File RelativePath="..\src\PAWS\recAcc.F90"/>
+			<File RelativePath="..\src\PAWS\rLateral.f90"/>
+			<File RelativePath="..\src\PAWS\rMinDtSet.F90"/>
+			<File RelativePath="..\src\PAWS\run.f90"/>
+			<File RelativePath="..\src\PAWS\SaveDebug.F90"/>
+			<File RelativePath="..\src\PAWS\saveMat.f90"/>
+			<File RelativePath="..\src\PAWS\scheduleSolar.f90"/>
+			<File RelativePath="..\src\CLM\main\shr_const_mod.F90"/>
+			<File RelativePath="..\src\CLM\main\shr_file_mod.F90"/>
+			<File RelativePath="..\src\CLM\main\shr_kind_mod.F90"/>
+			<File RelativePath="..\src\CLM\main\shr_log_mod.F90"/>
+			<File RelativePath="..\src\CLM\main\shr_orb_mod.F90"/>
+			<File RelativePath="..\src\CLM\main\shr_sys_mod.F90"/>
+			<File RelativePath="..\src\PAWS\simResults3.f90"/>
+			<File RelativePath="..\src\CLM\biogeophys\SNICARMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\SnowHydrologyMod.F90"/>
+			<File RelativePath="..\src\PAWS\SnowLSub.f90"/>
+			<File RelativePath="..\src\PAWS\SNOWUEB_MOD.f90"/>
+			<File RelativePath="..\src\CLM\biogeophys\SoilHydrologyMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\SoilTemperatureMod.F90"/>
+			<File RelativePath="..\src\PAWS\Solar_Radiation_Mod.F90"/>
+			<File RelativePath="..\src\CLM\main\spmdMod.F90"/>
+			<File RelativePath="..\src\CLM\main\subgridAveMod.F90"/>
+			<File RelativePath="..\src\CLM\main\subgridMod.F90"/>
+			<File RelativePath="..\src\PAWS\surface_proc_mod.f90"/>
+			<File RelativePath="..\src\CLM\biogeophys\SurfaceAlbedoMod.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\SurfaceRadiationMod.F90"/>
+			<File RelativePath="..\src\CLM\main\surfrdMod.F90"/>
+			<File RelativePath="..\src\CLM\main\system_messages.F90"/>
+			<File RelativePath="..\src\CLM\biogeophys\TridiagonalMod.F90"/>
+			<File RelativePath="..\src\PAWS\utilities.f90"/>
+			<File RelativePath="..\src\PAWS\vdata.f90"/>
+			<File RelativePath="..\src\PAWS\vdb.F90"/>
+			<File RelativePath="..\src\CLM\biogeochem\VOCEmissionMod.F90"/>
+			<File RelativePath="..\src\PAWS\wDaily.f90"/>
+			<File RelativePath="..\src\PAWS\wMonthlyAverages.f90"/>
+			<File RelativePath="..\src\PAWS\writeRec.F90"/>
+			<File RelativePath="..\src\PAWS\wSyncTime.F90"/>
+			<File RelativePath="..\src\PAWS\wtrshd_col.f90"/>
+			<File RelativePath="..\src\PAWS\wtrshd_day.f90"/>
+		</Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

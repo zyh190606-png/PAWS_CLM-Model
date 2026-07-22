@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:48:21 2017
+        MODULE WSYNCTIME__genmod
+          INTERFACE 
+            SUBROUTINE WSYNCTIME(T)
+              INTEGER(KIND=4) :: T
+            END SUBROUTINE WSYNCTIME
+          END INTERFACE 
+        END MODULE WSYNCTIME__genmod

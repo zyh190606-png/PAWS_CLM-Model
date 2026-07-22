@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sun Apr 09 23:47:54 2017
+        MODULE LINK_WSTATS__genmod
+          INTERFACE 
+            SUBROUTINE LINK_WSTATS(THES,THE_FULL,THED,TA,TAV)
+              REAL(KIND=8) ,TARGET :: THES
+              REAL(KIND=8) ,TARGET :: THE_FULL
+              REAL(KIND=8) ,TARGET :: THED
+              REAL(KIND=8) ,TARGET :: TA
+              REAL(KIND=8) ,TARGET :: TAV
+            END SUBROUTINE LINK_WSTATS
+          END INTERFACE 
+        END MODULE LINK_WSTATS__genmod
